@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 MIT License
 
 Copyright (c) 2025 [Your Full Name or Team Name]
 
+=======
+  GNU nano 8.6                       license.md                                 
+>>>>>>> 26cf1ed4e1e2a827e0f0a75d9b4f6634e055c2bb
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
