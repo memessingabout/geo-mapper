@@ -1,0 +1,5 @@
+folium
+gpxpy
+pytz
+darkdetect
+tqdm

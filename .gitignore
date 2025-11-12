@@ -1,0 +1,120 @@
+# ──────────────────────────────────────────────────────────────
+#  GPX Route Animator v1.0.0 – .gitignore
+#  Keep: Source code, configs, docs
+#  Ignore: Temp files, user data, large binaries, maps
+# ──────────────────────────────────────────────────────────────
+
+# ─────────────── Python & Development ───────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ─────────────── User & Generated Files ───────────────
+# GPX routes (user adds these)
+routes/
+*.gpx
+
+# Generated maps
+maps/
+*.html
+
+# Offline tiles & PBF (user downloads manually)
+tiles/
+pbf/
+*.mbtiles
+*.osm.pbf
+
+# Tilemaker binary (user downloads)
+bin/
+tilemaker*
+tilemaker-*.zip
+
+# ─────────────── OS & Editor Files ───────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list/
+tramp
+.\#*
+
+# macOS
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.nfs*
+
+# ─────────────── Logs & Temp ───────────────
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ─────────────── Build & Dist ───────────────
+build/
+dist/
+*.egg-info/
+*.egg
+*.dist-info/
+*.whl
+
+# ─────────────── End of File ───────────────
